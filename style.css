@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#img1{
+ 
+  background-image: url(images/eint.jpg);
+  width: 70%;  
+ height: 300px;
+ flex-basis:70%; 
+  background-size: 300px 300px;
+  margin-right: 430px;
+  border-radius: 20px;
+
+
+
+
+}
+#img2{
+
+ background-image: url(images/edi.jpg);
+ width: 70%;  
+ height: 300px;
+ flex-basis:50%; 
+  background-size: 300px 300px;
+  margin-right: 430px;
+  border-radius: 20px;
+}
+#img3{
+
+ background-image: url(file:///C:/Users/prahi/Downloads/903053-electronics-machine-technology-circuit-electronic-computer-technics-detail-psychedelic-abstract-pattern.jpg);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  max-height: 100px;
+  padding: 200px;
+ 
+
+}
+
+
+nav ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blanchedalmond;
+    text-align: center;
+    display: flex;
+    padding-left: 10px;
+    
+
+}
+
+nav ul li {
+    float: left;
+    padding-right: 20px;
+
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+}
+
+
+nav ul li a:hover {
+    background-color: #111;
+
+}
+
+
+p{
+
+  flex-basis: 50%;
+  font-size: 30px;
+
+    
+}
+
+.container{        
+                display: flex;      
+                  gap:1em; 
+                  border-style: solid;
+                  border-width: 10px;
+                  border: 30px 30px 30px 30px;
+                  border-radius: 30px;
+                  border-color: darkred;
+                  padding-left: 10px;
+                  padding-right: 10px;
+                  padding-top: 5px;
+
+               }
+
+ h1{
+
+    text-align: center;
+    }
+
+p1{
+
+
+  font-size: 30px;
+  align-items: left;
+  
+  margin-left: 10px;
+
+}
+.ccontainer {
+  position: relative;
+  text-align: center;
+  font-size: 90px;
+  color: darkred; /* Change text color as needed */
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.end{
+   height: 250px;
+ width: 100%;
+ padding-left: 10px;
+ padding-right: 10px;
+ background-color: darkblue;;
+
+}
